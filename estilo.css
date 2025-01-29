@@ -16,3 +16,46 @@ figure {
     background-color: whitesmoke;
     color: lightgrey;
 }
+
+#figure-matriz {
+    margin:0px 275px 0px 275px;
+    width: 550;
+    max-width: 800px;
+    padding: 10px;
+    
+}
+
+#figure-matriz img {
+    max-width: 100%;
+    height: auto;
+}
+
+#figure-family {
+    float: right; /* Alinha a imagem à direita */
+    margin: 0px 0px 20px 20px; /* Margem inferior e à esquerda para espaçamento */
+    width: 275px; /* Largura da imagem */
+    max-width: 100%; /* Garante que a imagem não ultrapasse o contêiner */
+    padding: 10px; /* Padding interno para espaçamento */
+}
+
+#figure-family img {
+    max-width: 100%; /* Garante que a imagem seja responsiva */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Estilo para o texto */
+.texto {
+    text-align: justify; /* Justifica o texto */
+}
+
+/* Limpa o float para evitar problemas de layout */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+
