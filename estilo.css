@@ -15,14 +15,15 @@ figure {
     text-align: center;
     background-color: whitesmoke;
     color: lightgrey;
+    border: 1px solid lightgray;
 }
 
 #figure-matriz {
-    margin:0px 275px 0px 275px;
-    width: 550;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
     max-width: 800px;
     padding: 10px;
-    
 }
 
 #figure-matriz img {
@@ -31,24 +32,29 @@ figure {
 }
 
 #figure-family {
-    float: right; /* Alinha a imagem à direita */
-    margin: 0px 0px 20px 20px; /* Margem inferior e à esquerda para espaçamento */
-    width: 275px; /* Largura da imagem */
-    max-width: 100%; /* Garante que a imagem não ultrapasse o contêiner */
-    padding: 10px; /* Padding interno para espaçamento */
+    float: right; 
+    margin: 0px 0px 40px 40px; 
+    width: 275px; 
+    max-width: 100%; 
+    padding: 10px; 
 }
 
 #figure-family img {
-    max-width: 100%; /* Garante que a imagem seja responsiva */
-    height: auto; /* Mantém a proporção da imagem */
+    max-width: 100%; 
+    height: auto; 
 }
 
-/* Estilo para o texto */
+figcaption {
+    padding-top: 10px;
+    color: black;
+}
+
+
 .texto {
-    text-align: justify; /* Justifica o texto */
+    text-align: justify; 
 }
 
-/* Limpa o float para evitar problemas de layout */
+
 .clearfix::after {
     content: "";
     display: table;
